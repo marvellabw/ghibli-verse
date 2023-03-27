@@ -23,9 +23,11 @@ function Searchbar({ data }: IProps) {
 	};
 
 	const fetchResults = (id: string) => {
-		axios.get(`https://ghibliapi.herokuapp.com/films/${id}`).then((res) => {
-			navigate("/details", { state: res.data });
-		});
+		axios
+			.get(`https://powerful-journey-09811.herokuapp.com/films/${id}`)
+			.then((res) => {
+				navigate("/details", { state: res.data });
+			});
 	};
 
 	return (
