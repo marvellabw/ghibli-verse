@@ -21,7 +21,7 @@
 	"scripts": {
 		"start": "node index",
 		"test": "node test/app",
-		"heroku-postbuild": "yarn run build"
+		"heroku-postbuild": "npm run build"
 	},
 	"dependencies": {
 		"clone": "^1.0.2",
