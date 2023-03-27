@@ -1,0 +1,15 @@
+.navbar-container {
+	width: 100vw;
+	height: 70px;
+	margin: 0 0 0 0;
+	display: flex;
+	align-items: center;
+}
+
+.navbar-container_text {
+	padding: 30px 0px 30px 46px;
+	margin: 0 0 0 0;
+	color: #52561f;
+	size: 32px !important;
+	font-weight: 600 !important;
+}

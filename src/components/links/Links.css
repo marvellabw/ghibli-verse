@@ -1,0 +1,7 @@
+.links-container {
+	width: 100vw;
+	background-color: rgba(82, 86, 31, 0.75);
+	height: 60px;
+	display: flex;
+	align-items: center;
+}

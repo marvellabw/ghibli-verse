@@ -1,0 +1,19 @@
+.description-container {
+	min-height: 400px;
+	display: flex;
+	flex-direction: row;
+	margin: 89px 125px 100px 124px;
+	align-items: center;
+}
+
+.description-container_image {
+	max-height: 334px;
+	padding-right: 100px;
+}
+
+.description-container_text {
+	width: auto;
+	flex-wrap: wrap;
+	font-size: 15px;
+	color: rgb(82, 86, 31);
+}
